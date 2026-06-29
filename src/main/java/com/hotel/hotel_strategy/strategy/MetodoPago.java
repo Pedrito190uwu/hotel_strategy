@@ -1,5 +1,7 @@
 package com.hotel.hotel_strategy.strategy;
 
-public class MetodoPago {
-    
+public interface MetodoPago {
+
+    String pagar(double monto);
+
 }
